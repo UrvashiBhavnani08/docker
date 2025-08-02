@@ -21,7 +21,8 @@ export function DebugContracts() {
 
   const fetchNumber = async () => {
     try {
-      const currentNumber = await contract.number();
+      const currentNumber = await contract.number(); 
+      
       console.log(currentNumber);
       setNumber(Number(currentNumber));
     } catch (error) {

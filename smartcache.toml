@@ -1,0 +1,27 @@
+# SmartCache Configuration File
+# Generated on 2025-08-02
+
+# Default network for contract operations
+# Options: arbitrum-sepolia, arbitrum-one, arbitrum-nova, localhost
+network = "arbitrum-sepolia"
+
+# Your wallet address that deployed the contracts, this is required for all operations
+deployed_by = "0xCD8a1e9257bf1550508A7c9C6274fc0cf3c7387C"
+
+# Optional: Default contract address
+# If specified, you can run 'smart-cache add' without providing an address
+contract_address = "0xd4d8841973a0abc5a4a7bd2f85b7bb985db77cb3"
+
+# Optional: Default contract metadata
+# name = "MyContract"
+# description = "Contract description"
+version = "1.0.0"
+
+# CLI behavior settings
+interactive = false
+
+# Optional: Custom metadata (add any additional fields you need)
+# [metadata]
+# author = "Your Name"
+# license = "MIT"
+# tags = ["defi", "nft"]
